@@ -75,17 +75,63 @@ const Pi = 3.1415
 // 	}
 // }
 
-func main() {
-	marks := []int{95, 82, 60, 40}
+// func main() {
+// 	marks := []int{95, 82, 60, 40}
 
-	for _, mark := range marks {
-		switch {
-		case mark >= 90:
-			fmt.Println("Topper")
-		case mark >= 75:
-			fmt.Println("Good")
-		default:
-			fmt.Println("Needs Improvement")
-		}
-	}
+// 	for _, mark := range marks {
+// 		switch {
+// 		case mark >= 90:
+// 			fmt.Println("Topper")
+// 		case mark >= 75:
+// 			fmt.Println("Good")
+// 		default:
+// 			fmt.Println("Needs Improvement")
+// 		}
+// 	}
+// }
+
+// func divide(a, b int) (int, int) {
+// 	return a / b, a % b
+// }
+
+// func main() {
+// 	fmt.Println(divide(2, 4))
+// }
+
+// func getUserInfo() (name string, age int) {
+// 	name = "Alice"
+// 	age = 30
+// 	return
+// }
+
+// func main() {
+// 	fmt.Println(getUserInfo())
+// }
+
+// func sum(nums ...int) int {
+// 	total := 0
+// 	for _, num := range nums {
+// 		total += num
+// 	}
+// 	return total
+// }
+
+// func main() {
+// 	fmt.Println(sum(1, 2, 3, 4, 5))
+// }
+
+// func greet(name string) {
+// 	fmt.Println("hello", name)
+// }
+
+// var sayHello = greet
+
+// func main() {
+// 	sayHello("suntax")
+// }
+
+func main() {
+	func() {
+		fmt.Println("anon function")
+	}()
 }
