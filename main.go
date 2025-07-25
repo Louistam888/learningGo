@@ -41,4 +41,51 @@ const Pi = 3.1415
 // 	}
 // }
 
-fun
+// func main() {
+// 	day := "monday"
+// 	switch day {
+// 	case "monday":
+// 		fmt.Println("start of the week")
+// 	case "Friday":
+// 		fmt.Println("Almost weekend")
+// 	default:
+// 		fmt.Println("just another day")
+// 	}
+// }
+
+// func main() {
+// 	for i := 1; i <= 5; i++ {
+// 		fmt.Println(i)
+// 	}
+// }
+
+// func main() {
+// 	i := 1
+// 	for i <= 5 {
+// 		fmt.Println(i)
+// 		i++
+// 	}
+
+// }
+
+// func main() {
+// 	nums := []int{10, 20, 30}
+// 	for index, value := range nums {
+// 		fmt.Printf("index: %d, Value: %d\n", index, value)
+// 	}
+// }
+
+func main() {
+	marks := []int{95, 82, 60, 40}
+
+	for _, mark := range marks {
+		switch {
+		case mark >= 90:
+			fmt.Println("Topper")
+		case mark >= 75:
+			fmt.Println("Good")
+		default:
+			fmt.Println("Needs Improvement")
+		}
+	}
+}
