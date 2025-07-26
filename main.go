@@ -158,3 +158,52 @@ const Pi = 3.1415
 // 		fmt.Printf("day %d: %.1fC\n", i+1, t)
 // 	}
 // }
+
+// func main() {
+// 	ages := map[string]int{
+// 		"Alice": 25,
+// 		"Bob":   30,
+// 	}
+// 	fmt.Println(ages)
+// 	ages["Charlie"] = 32
+// 	delete(ages, "Bob")
+// 	fmt.Println(ages)
+// 	val, ok:=ages["Derek"]
+// 	if(ok) {
+// 		fmt.Println("Derek's age is", val)
+// 	} else {
+// 		fmt.Println("Derek not found")
+// 	}
+// }
+
+// func main() {
+// 	type Person struct{
+// 		Name string
+// 		Age int
+// 	}
+
+// 	p1:= Person{"Alice",25}
+// 	p2:= Person{"Joe",35}
+// 	fmt.Println(p1, p2)
+// 	fmt.Println(p1.Name, "p1")
+
+// 	type Team struct {
+// 		Name string
+// 		Members []Person
+// 	}
+
+// 	team:=Team{
+// 		Name: "SyntaxFuel",
+// 		Members: []Person{p1,p2},
+// 	}
+// 	fmt.Println(team.Members)
+// }
+
+func main() {
+	emp:=struct{
+		ID int
+		Name string
+	}{101, "Charlie"}
+
+	fmt.Println(emp)
+}
