@@ -128,10 +128,33 @@ const Pi = 3.1415
 
 // func main() {
 // 	sayHello("suntax")
+// // }
+
+// func main() {
+// 	func() {
+// 		fmt.Println("anon function")
+// 	}()
 // }
 
-func main() {
-	func() {
-		fmt.Println("anon function")
-	}()
-}
+// func main() {
+// 	names := []string{"alice", "bob"}
+// 	names = append(names, "delta")
+// 	fmt.Println(names)
+// }
+
+// func main() {
+// 	arr := []interface{}{1, 2, 3, 4, 5}
+// 	slice := arr[1:4]
+// 	fmt.Println(slice)
+// 	fmt.Println(len(slice), slice)
+// 	fmt.Println(cap(slice), "cap")
+// }
+
+// func main() {
+// 	temps:=[]float64{22,3,4,5,6}
+// 	temps = append(temps, 300)
+// 	// fmt.Println(temps)
+// 	for i, t:=range temps{
+// 		fmt.Printf("day %d: %.1fC\n", i+1, t)
+// 	}
+// }
